@@ -25,7 +25,10 @@ public class Main
                 case 0:
                     order.printOrder();
                     break;
-                //put more cases below this comment
+                case  1:
+                    order.addDrink();
+                    order.printOrder();
+                    break;
             }
         }
     }

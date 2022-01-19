@@ -8,4 +8,8 @@ class Order {
         System.out.println("Your total is $" + totalCost);
         System.out.println("Here are your items: " + items);
     }
+    public void addDrink() {
+        items.add("Drink");
+        totalCost += 2;
+    }
 }
